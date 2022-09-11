@@ -16,7 +16,7 @@ function TodoList() {
   };
 
   const updateTodo = (todoId, newValue) => {
-    if (!todoId.text || /^\s*$/.test(newValue.text)) {
+    if (!newValue.text || /^\s*$/.test(newValue.text)) {
       return;
     }
 
@@ -39,7 +39,7 @@ function TodoList() {
   };
 
   useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos), [todos]);
+    localStorage.setItem("todos", JSON.stringify(todos)), [...todos];
   });
 
   return (
