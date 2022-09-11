@@ -1,5 +1,9 @@
 **Esse projeto foi desenvolvido para meu próprio entendimento e prática das tecnologias que estou estudando**
 
+## Demo
+
+Você pode visualizar uma demonstração do projeto, basta abrir [https://todo-list-seven-eta.vercel.app/](https://todo-list-seven-eta.vercel.app/) no seu browser.
+
 ## Executando
 
 No diretório do projeto, execute:
